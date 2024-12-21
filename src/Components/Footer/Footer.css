@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    margin: 0 auto;
+    align-items: start;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    list-style: none;
+}
+.footer ul li{
+    cursor: pointer;
+}
+#copyright{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8c8c8c;
+}

@@ -1,0 +1,95 @@
+.hero{
+    position: relative;
+    background-color: #181A1B;
+}
+
+.hero-banner{
+    width: 100%;
+    mask-image: linear-gradient(to right , transparent , black 70%);
+    -webkit-mask-image: linear-gradient(to right , transparent , black 70%);
+}
+
+.hero-caption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.caption-img{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.hero-caption p{
+    font-size: 17px;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.button .btn{
+    outline: 0;
+    border: 0;
+    padding: 8px 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 4px;
+}
+
+.btn-dark{
+    background-color: #6d6d6eb3;
+    color: #fff;
+}
+
+.button .btn img{
+    width: 25px;
+    padding: 2px;
+}
+
+.button .btn:hover{
+    background-color: #3a3a3bb3;
+    cursor: pointer;
+}
+
+.morecards{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #181A1B;
+}
+
+.footer{
+    background-color: #181A1B;
+    color: #fff;
+}
+
+@media (max-width:1400px) {
+   .hero-caption .titlecard{
+        display: none;
+    }
+}
+
+@media (max-width:800px){
+    .hero-caption img{
+        width: 277px;
+    }
+
+    .hero-caption p{
+        display: none;
+    }
+    .morecards .titlecard{
+        padding-left: 6%;
+    }
+    .card img{
+        width:50vw;
+        padding: 10px;
+    }
+}
