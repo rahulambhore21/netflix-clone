@@ -15,7 +15,7 @@ function Home() {
           <img src={hero} alt="" className='hero-banner' />
           <div className="hero-caption">
           <img src={title} alt="" className='caption-img' />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, distinctio. Hic sed delectus voluptates cum fugit, quidem aut earum autem voluptatum modi id a ut distinctio velit facilis libero laborum optio nulla quo ipsum.</p>
+          <p>The Protector is a Turkish fantasy series where Hakan discovers his destiny as Istanbul's guardian, battling immortals to protect the city’s past and future.</p>
           <div className="button">
             <button className="btn"><img src={play} alt="" />Play</button>
             <button className="btn btn-dark"><img src={info} alt="" />More Info</button>
